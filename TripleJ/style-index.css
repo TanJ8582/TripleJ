@@ -66,6 +66,17 @@
    border-radius: 30px; 
    transition:  0.3s; 
 }
+.create-button {
+   display: inline-block;
+   color: white; 
+   border: none; 
+   padding: 8px 20px; 
+   font-size: 16px; 
+   cursor: pointer; 
+   border-radius: 30px; 
+   transition:  0.3s; 
+   text-decoration: none; /* Ensures the button doesn't look like a link */
+}
 
 .button-color:hover {
    background-color: gray; 
